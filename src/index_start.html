@@ -14,55 +14,55 @@
 <body>
 
   <!-- HERO SECTION -->
-  <section>
-    <img src="./images/hero-bg.png" alt="Agile Angels">
-    <div class="hero-gradient"></div>
-  </section>
+ <section class="hero">
+  <img src="./images/hero-bg.png" alt="Agile Angels" class="hero-img">
+  <div class="hero-gradient"></div>
+</section>
 
   <!-- TEAM SECTION -->
-  <section class="team-section">
-    <img src="images/team-bg.png" alt="">
+   <section class="team-section">
+    <img src="images/team-bg.png" alt="" class="team-bg-img">
     <span class="team-label">MEET THE TEAM</span>
     <h2 class="team-subtitle">The minds behind the mission</h2>
     <div class="team-cards">
       
         <a href="" class="team-card"> 
-          <i data-lucide="file-search"></i>
+          <i data-lucide="file-search" class="team-icon"></i>
           <span class="team-name">Kamila</span>
           <span class="team-role">EXPLORER</span>
           <span class="team-desc">Finding bugs before they find you</span>
       </a>
       <div class="team-card">
-        <i data-lucide="lightbulb"></i>
+        <i data-lucide="lightbulb" class="team-icon"></i>
         <span class="team-name">Majda</span>
         <span class="team-role">VISIONARY</span>
         <span class="team-desc">Bright ideas, brighter solutions</span>
       </div>
       <div class="team-card">
-        <i data-lucide="clipboard-check"></i>
+        <i data-lucide="clipboard-check" class="team-icon"></i>
         <span class="team-name">Jana</span>
         <span class="team-role">ORGANIZER</span>
-        <span class="team-desc" >Checklists are her love language</span>
+        <span class="team-desc">Checklists are her love language</span>
       </div>
       <div class="team-card">
-        <i data-lucide="settings"></i>
+        <i data-lucide="settings" class="team-icon"></i>
         <span class="team-name">Lucia</span>
         <span class="team-role">AUTOMATOR</span>
         <span class="team-desc">Spinning gears, shipping quality</span>
       </div>
       <div class="team-card">
-        <i data-lucide="book-open"></i>
+        <i data-lucide="book-open" class="team-icon"></i>
         <span class="team-name">Oli</span>
         <span class="team-role">STORYTELLER</span>
         <span class="team-desc">User stories are her superpower</span>
       </div>
     </div>
-    <div>
+    <div class="cta-row">
       <a href="#" class="btn-primary">
         <i data-lucide="bug"></i>
         <span>JOIN THE BUG HUNT</span>
       </a>
-      <a href="#" class="btn-secondary">VIEW OUR WORK 
+      <a href="#" class="btn-secondary">
         <i data-lucide="zap"></i>
         <span>VIEW OUR WORK</span>
       </a>
@@ -73,74 +73,74 @@
   <section class="sprint-section">
     <h2 class="sprint-title">SPRINT BOARD</h2>
     <div class="sprint-title-accent"></div>
-    <div>
+    <div class="sprint-columns">
       <!-- Backlog Column -->
-      <div>
-        <div>
-          <span></span>
-          <span>BACKLOG</span>
-          <span>3</span>
+      <div class="sprint-column col-backlog">
+        <div class="col-header">
+          <span class="col-dot dot-a"></span>
+          <span class="col-title col-title-a">BACKLOG</span>
+          <span class="col-count count-a">3</span>
         </div>
-        <div></div>
-        <div>
-          <span>API</span>
-          <span>Write E2E tests for login flow</span>
-          <span>QA-1042 · 3 pts</span>
+        <div class="col-divider divider-a"></div>
+        <div class="task-card">
+          <span class="task-tag tag-backlog">API</span>
+          <span class="task-title">Write E2E tests for login flow</span>
+          <span class="task-meta">QA-1042 · 3 pts</span>
         </div>
-        <div>
-          <span>UI</span>
-          <span>Validate responsive breakpoints</span>
-          <span>QA-1043 · 2 pts</span>
+        <div class="task-card">
+          <span class="task-tag tag-backlog">UI</span>
+          <span class="task-title">Validate responsive breakpoints</span>
+          <span class="task-meta">QA-1043 · 2 pts</span>
         </div>
-        <div>
-          <span>PERF</span>
-          <span>Load test payment gateway</span>
-          <span>QA-1044 · 5 pts</span>
+        <div class="task-card">
+          <span class="task-tag tag-backlog">PERF</span>
+          <span class="task-title">Load test payment gateway</span>
+          <span class="task-meta">QA-1044 · 5 pts</span>
         </div>
       </div>
       <!-- In QA Sprint Column -->
-      <div>
-        <div>
-          <span></span>
-          <span>IN QA SPRINT</span>
-          <span>3</span>
-        </div>
-        <div></div>
-        <div>
-          <span>SMOKE</span>
-          <span>Regression suite — checkout</span>
-          <span>QA-1038 · 8 pts · In Progress</span>
-        </div>
-        <div>
-          <span>INTEG</span>
-          <span>Cross-browser compat matrix</span>
-          <span>QA-1039 · 5 pts · Review</span>
-        </div>
-        <div>
-          <span>A11Y</span>
-          <span>WCAG audit — form inputs</span>
-          <span>QA-1040 · 3 pts · Blocked</span>
-        </div>
-      </div>
+      <div class="sprint-column col-qa">
+  <div class="col-header">
+    <span class="col-dot dot-b"></span>
+    <span class="col-title col-title-b">IN QA SPRINT</span>
+    <span class="col-count count-b">3</span>
+  </div>
+  <div class="col-divider divider-b"></div>
+  <div class="task-card">
+    <span class="task-tag tag-qa">SMOKE</span>
+    <span class="task-title">Regression suite — checkout</span>
+    <span class="task-meta">QA-1038 · 8 pts · In Progress</span>
+  </div>
+  <div class="task-card">
+    <span class="task-tag tag-qa">INTEG</span>
+    <span class="task-title">Cross-browser compat matrix</span>
+    <span class="task-meta">QA-1039 · 5 pts · Review</span>
+  </div>
+  <div class="task-card">
+    <span class="task-tag tag-qa">A11Y</span>
+    <span class="task-title">WCAG audit — form inputs</span>
+    <span class="task-meta">QA-1040 · 3 pts · Blocked</span>
+  </div>
+</div>
       <!-- Defects Column -->
-      <div>
-        <div>
-          <span></span>
-          <span>DEFECTS</span>
-          <span>2</span>
-        </div>
-        <div></div>
-        <div>
-          <span>P1</span>
-          <span>Cart total miscalculation on iOS</span>
-          <span>BUG-287 · Critical · 2d ago</span>
-        </div>
-        <div>
-          <span>P2</span>
-          <span>Search results 500 on empty query</span>
-          <span>BUG-291 · Major · 6h ago</span>
-        </div>
-      </div>
+     <div class="sprint-column col-defects">
+  <div class="col-header">
+    <span class="col-dot dot-c"></span>
+    <span class="col-title col-title-c">DEFECTS</span>
+    <span class="col-count count-c">2</span>
+  </div>
+  <div class="col-divider divider-c"></div>
+  <div class="task-card">
+    <span class="task-tag tag-defects">P1</span>
+    <span class="task-title">Cart total miscalculation on iOS</span>
+    <span class="task-meta">BUG-287 · Critical · 2d ago</span>
+  </div>
+  <div class="task-card">
+    <span class="task-tag tag-defects">P2</span>
+    <span class="task-title">Search results 500 on empty query</span>
+    <span class="task-meta">BUG-291 · Major · 6h ago</span>
+  </div>
+</div>
     </div>
     <div>
       <span>I ❤ BUG HUNTING</span>
