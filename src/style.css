@@ -26,6 +26,8 @@ body {
   background: var(--bg-dark);
   color: var(--white);
   overflow-x: hidden;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .team-section,
