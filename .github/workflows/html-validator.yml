@@ -1,0 +1,25 @@
+name: HTML Validator
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1-5'
+
+jobs:
+  validate:
+    name: Validate HTML files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Validate HTML
+        uses: Cyb3r-Jak3/html5validator-action@v7.2.0
+        with:
+          root: src/
+          blacklist: index.html
+          extra: --show-warnings
