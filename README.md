@@ -5,7 +5,7 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-success?logo=github)](https://magdiroubalova-eng.github.io/AgileAngels/)
 [![Accessibility](https://img.shields.io/badge/WCAG%202.1-SC%202.4.6-blueviolet)](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html)
 
-> A QA-team-themed website built by women in tech — with a full automated QA infrastructure to back it up. Because we test our own code, too.
+> A QA-team-themed website built by women united by Czechitas Digital Academy - Testing; with a full automated QA infrastructure to back it up. Because we test our own code, too.
 
 🌐 **Live demo:** [magdiroubalova-eng.github.io/AgileAngels](https://magdiroubalova-eng.github.io/AgileAngels/)
 
@@ -13,7 +13,7 @@
 
 ## 🎯 About
 
-**Agile Angels** is a five-woman QA team project from the [Czechitas Digital Academy — Testing Track](https://www.czechitas.cz/) (2026 cohort). The website celebrates our team identity, our individual roles, and the QA mindset that connects us — featuring a Sprint Board, a "QA Dictionary" of inside jokes, a Bug Hunt leaderboard, and individual member profiles.
+**Agile Angels** is a five-woman QA team project from the [Czechitas Digital Academy — Testing](https://www.czechitas.cz/) (spring 2026 cohort). The website celebrates our team identity, our individual roles, and the QA mindset that connects us — featuring a Sprint Board, a "QA Dictionary" of inside jokes, a Bug Hunt leaderboard, and individual member profiles.
 
 But the website is just one half of the story. The **other half is the automated QA infrastructure** that ensures this static site stays high-quality on every commit. This README documents both.
 
@@ -168,7 +168,7 @@ No build step required.
 
 ## 📚 Behind the Scenes — What I Learned
 
-For me personally (Magda), building the QA infrastructure side of this project was an exercise in:
+For me personally (Majda/Magdi), building the QA infrastructure side of this project was an exercise in:
 
 - **Setting up CI/CD from scratch** — writing YAML workflow files, debugging exit codes, configuring schedule triggers and event filters
 - **HTML accessibility** — implementing WCAG patterns, learning the difference between `display: none` and the `sr-only` technique
@@ -180,5 +180,5 @@ For me personally (Magda), building the QA infrastructure side of this project w
 
 ## 📄 License
 
-Czechitas Digital Academy — Testing Track 2026.  
-Educational project. *All bugs will be found.* 🐛
+Czechitas Digital Academy — Testing Spring 2026.  
+Educational project. 
